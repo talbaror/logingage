@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.main-section {
+  margin: 0 auto ;
+  margin-top: 130px;
+  padding: 0; 
+}
+
+.modal-content {
+  background-color: #3b4652;
+  opacity: .75;
+  padding:  0 18px;
+  box-shadow: 0px 0px 3px #848484;
+}
+
+.user-img {
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+
+.user-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #848484;
+}
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group input {
+  height: 42px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  padding-left: 54px;
+}
+
+
+.fa-user, .fa-lock { 
+  font-size: 22px;
+  position: absolute; 
+  left: 30px; 
+  margin-top: 11px; 
+  color: #555e60; 
+}
+
+button {
+  width: 40%;
+  margin:  5px 0 25px;
+}
+
+.btn {
+  background-color: cornflowerblue;
+  color: #fff;
+  font-size: 19px;
+  padding: 7px 14px;
+  border-radius: 5px;
+  border-bottom: 4px solid #222222
+}
+
+.btn:hover .btn:focus {
+  background-color: #25a890!important;
+  border-bottom:  4px solid #25a890!important;
+}
+
+.fa-sign-in-alt {
+  font-size: 20px;
+  margin-right: 7px;
+}
